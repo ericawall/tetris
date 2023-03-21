@@ -41,5 +41,18 @@ body::before {
     z-index: -1;
 }
 
-
-
+/* Style of main game container */
+#game-container {
+    position: absolute;
+    text-align: center;
+    color: var(--navy-blue);
+    width: 80%;
+    height: 30rem;
+    max-height: 30rem;
+    max-width: 50rem;
+    box-sizing: border-box;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    padding: 1%;
+}
