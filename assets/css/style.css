@@ -181,6 +181,11 @@ label {
     height: 100%;
 }
 
+#image-other-screens img {
+    width: 35%;
+    height: 35%;
+}
+
 /* contact form */
 a {
     text-decoration: none;
