@@ -181,7 +181,7 @@ label {
     height: 100%;
 }
 
-/*game screen*/
+/* Style of game screen */
 #username {
     font-size: 100%;
     font-weight: bold;
@@ -249,7 +249,7 @@ footer a:hover {
     color: var(--sky);
 }
 
-/* contact form */
+/* Style of contact form */
 a {
     text-decoration: none;
     padding: inherit;
@@ -269,22 +269,3 @@ a:hover {
     padding: 1rem 0;
 }
 
-/* contact form */
-a {
-    text-decoration: none;
-    padding: inherit;
-    color: inherit;
-}
-
-a:hover {
-    color: inherit;
-}
-
-.btn-send-form {
-    line-height: normal;
-}
-
-.image-other-screens img {
-    width: 35%;
-    padding: 1rem 0;
-}

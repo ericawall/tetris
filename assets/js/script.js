@@ -74,3 +74,39 @@ document.getElementById("user").addEventListener("keydown", function (event) {
         checkUsername();
     }
 });
+
+/**
+ * Main Game Screen
+ */
+// Constants
+const BOARD_WIDTH = 10;
+const BOARD_HEIGHT = 20;
+const BLOCK_SIZE = 30;
+const COLORS = ['cyan', 'blue', 'orange', 'yellow', 'green', 'purple', 'red'];
+
+// Game state
+let linesCleared = 0;
+
+// Tetromino shapes
+const tetrominos = [
+    // I shape
+    [[1, 1, 1, 1]],
+
+    // J shape
+    [[1, 0, 0], [1, 1, 1]],
+
+    // L shape
+    [[0, 0, 1], [1, 1, 1]],
+
+    // O shape
+    [[1, 1], [1, 1]],
+
+    // S shape
+    [[0, 1, 1], [1, 1, 0]],
+
+    // T shape
+    [[0, 1, 0], [1, 1, 1]],
+
+    // Z shape
+    [[1, 1, 0], [0, 1, 1]],
+];
