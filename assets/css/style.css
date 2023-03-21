@@ -56,3 +56,27 @@ body::before {
     transform: translate(-50%, -45%);
     padding: 1%;
 }
+
+/* Style top line of the game container, icons and text inside it */
+.top-line {
+    line-height: 2.5rem;
+    text-align: right;
+    padding-bottom: 0.5rem;
+}
+
+.user-icon {
+    font-size: 250%; 
+    float: left;
+}
+
+/* username display */
+.top-line p {
+    float: left;
+}
+
+/* Style instructions icon and remove default background color */
+#instructions-icon {
+    background: none !important;
+    font-size: 250%;
+    float: right;
+}
