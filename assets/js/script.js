@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /**
- * Set up of game variables to display/hide different screens
+ * Set up of page display variables to display/hide different screens
  */
 let mainLoginScreen = document.getElementById("login-screen");
 let getInstructions = document.getElementById("instructions-icon");
@@ -14,7 +14,7 @@ let errorMessage = document.getElementById("error-message");
 let gameScreen = document.getElementById("game-screen");
 let wrongScreen = document.getElementById("wrong-screen");
 
- /**
+/**
 * Show the main screen with user log-in and instruction icon
 */
 function runMainScreen() {
