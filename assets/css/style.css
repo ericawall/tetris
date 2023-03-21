@@ -1,0 +1,18 @@
+/* Remove default values */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+}
+
+/* Colors pallet */
+:root {
+    --red: #FF0000;
+    --navy-blue: #1B212B;
+    --sky: #7bb4e0;
+    --light-blue: #b0d3e8;
+    --light-orange: #FCCD4D;
+    --orange: #F8B500;
+    --gray:#445361;
+}
