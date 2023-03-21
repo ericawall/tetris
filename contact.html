@@ -17,11 +17,25 @@
     <title>Tetris Game</title>
 </head>
 <body>
-    <!-- White box game container-->
-    <div>game container
-        <!-- Contact Form-->
+    <div id="game-container" class="border-2 rounded bg-light">
+        <div class="border border-2 p-2 p-sm-2">
+            <form id="contact-form">
+                <div>
+                    <label for="name" class="form-label">Your name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
 
-    </div>
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" name="message" placeholder="Leave us your feedback or share any suggestion how we can further improve the game." required></textarea>
+                </div>
+                
+                <input type="submit" id="btn-send-form" class="button btn-send-form my-3" value="Send">
+                <a href="index.html" class="button my-3">Go back</a>
+            </form>
+        </div>
+        
     <!-- Game script -->
     <script src="assets/js/game.js"></script>
     <!-- Font Awesome script -->

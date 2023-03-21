@@ -180,3 +180,23 @@ label {
     display: block !important;
     height: 100%;
 }
+
+/* contact form */
+a {
+    text-decoration: none;
+    padding: inherit;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.btn-send-form {
+    line-height: normal;
+}
+
+.image-other-screens img {
+    width: 35%;
+    padding: 1rem 0;
+}
