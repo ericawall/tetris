@@ -181,6 +181,10 @@ label {
     height: 100%;
 }
 
+#wrong-screen img {
+    width: 30%;
+    height: 30%;
+}
 #image-other-screens img {
     width: 35%;
     height: 35%;
