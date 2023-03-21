@@ -43,3 +43,34 @@ function closeInstructions() {
     modal.classList.remove("show-modal");
     document.body.classList.remove('greyout-background');
 }
+
+/**
+ * Verification of the user name input on the log-in screen
+ */
+document.getElementById("user-log").addEventListener("click", checkUsername);
+
+function checkUsername() {
+    let username = document.getElementById("user").value.trim();
+
+    if (username.length >= 1 && username.length <= 12) {
+        gameScreen.style.display = "block";
+        mainLoginScreen.style.display = "none";
+        wrongScreen.style.display = "none";
+        document.getElementById("user-icon").style.display = "block";
+        document.getElementById("username").innerText = username;
+    } else {
+        errorMessage.style.display = "block";
+        document.getElementById("user").focus();
+        document.getElementById("user").value = "";
+    }
+}
+checkUsername();
+
+/**
+ * Input of username using by pressing enter key
+ */
+document.getElementById("user").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        checkUsername();
+    }
+});
