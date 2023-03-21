@@ -26,3 +26,20 @@ function runMainScreen() {
     document.getElementById("username").innerText = "";
     document.getElementById("user").focus(); //focus on input element with cursor ready for username input
 }
+
+/**
+ * Show and close modal with game instructions
+ */
+getInstructions.addEventListener("click", showInstructions);
+
+function showInstructions() {
+    let modal = document.getElementById("myModal");
+    modal.classList.add("show-modal");
+    document.body.classList.add('greyout-background'); //grey out the background picture when modal pops-up.
+}
+
+function closeInstructions() {
+    let modal = document.getElementById("myModal");
+    modal.classList.remove("show-modal");
+    document.body.classList.remove('greyout-background');
+}
