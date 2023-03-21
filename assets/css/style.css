@@ -1,3 +1,7 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
 /* Remove default values */
 * {
     margin: 0;
@@ -17,6 +21,12 @@
     --gray:#445361;
 }
 
+body {
+    font-family: "Noto Sans", sans-serif;
+    color: #445361;
+    font-weight: 400;
+}
+
 /* Set up transparency of background image */
 body::before {
     position: fixed;
@@ -30,3 +40,6 @@ body::before {
     opacity: .9;
     z-index: -1;
 }
+
+
+
