@@ -16,3 +16,17 @@
     --orange: #F8B500;
     --gray:#445361;
 }
+
+/* Set up transparency of background image */
+body::before {
+    position: fixed;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/tetris-background.png);
+    background-color: var(--sky);
+    background-repeat: repeat;
+    background-size: cover;
+    opacity: .9;
+    z-index: -1;
+}
