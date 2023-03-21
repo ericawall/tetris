@@ -30,8 +30,22 @@
         </div>
         
         <!-- Main screen with game title and user login -->
-        <div id="login-area">
-            Login area & welcome text goes here
+        <div class="mt-3" id="login-screen">
+            <br> 
+            <p>Welcome To</p>         
+            <h1 id="game-title" class="pb-3">TETRIS</h1>
+            <br>
+            <div class="user-input">
+                <label for="user">Please enter your name</label>
+                <br>
+                <input type="text" id="user" name="user" maxlength=12>
+            </div>
+
+            <button class="button" id="user-log">Submit</button>
+            
+            <p class="user-log-error" id="error-message">
+                Please try again. <br>Username must be between 1 and 12 characters.
+            </p>
         </div>
 
         <!-- Modal with game controls instructions -->

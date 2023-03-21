@@ -80,3 +80,7 @@ body::before {
     font-size: 250%;
     float: right;
 }
+
+#login-screen {
+    text-transform: uppercase;
+}
