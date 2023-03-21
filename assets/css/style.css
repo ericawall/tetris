@@ -186,6 +186,54 @@ label {
     height: 35%;
 }
 
+/* Style of site footer */
+footer {
+    position: fixed;
+    width: 80%;
+    max-width: 50rem;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+footer p {
+    padding-top: 5%;
+    margin-bottom: 0;
+    font-size: 110%;
+    font-weight: bolder;
+    color: var(--navy-blue);
+}
+
+footer a {
+    font-size: 1.6rem;
+    padding-right: 0.5rem;
+    color: var(--navy-blue);
+}
+
+footer a:hover {
+    color: var(--sky);
+}
+
+/* contact form */
+a {
+    text-decoration: none;
+    padding: inherit;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.btn-send-form {
+    line-height: normal;
+}
+
+.image-other-screens img {
+    width: 35%;
+    padding: 1rem 0;
+}
+
 /* contact form */
 a {
     text-decoration: none;
